@@ -1,5 +1,4 @@
 class Gun:
-
     def __init__(self, max_ammo: int) -> None:
         """ Create the gun. """
 
@@ -7,7 +6,7 @@ class Gun:
         self.max_ammo = max_ammo
 
         return None
-    
+
     def fire(self) -> str:
         """ Fire the gun. """
 
@@ -36,10 +35,10 @@ class Gun:
 
         return None
 
+
 if __name__ == "__main__":
     """ Satiate Chekhov. """
-    
+
     revolver = Gun(max_ammo=6)
     revolver.load()
     revolver.fire()
-    

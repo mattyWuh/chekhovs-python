@@ -1,15 +1,17 @@
 from chekhovs_python.gun import Gun
 
+
 def test_fire() -> None:
     """ Tests both outcomes of the `fire` method. """
 
     revolver = Gun(max_ammo=6)
     assert revolver.fire() == "Click."
     revolver.load()
-    assert revolver.fire() == "Bang."
+    assert revolver.fire() == "Bang!"
     assert revolver.ammo == 5
 
     return None
+
 
 def test_load() -> None:
     """ Tests the `load` method. """
@@ -22,6 +24,7 @@ def test_load() -> None:
     assert revolver.max_ammo == ammo
 
     return None
+
 
 def test_unload() -> None:
     """ Tests the `unload` method. """
