@@ -4,5 +4,5 @@
     "project_slug": "helloworld",
     "version": "0.0.1",
     "description": "One must never place a loaded rifle on the stage if it isn't going to go off. It's wrong to make promises you don't mean to keep.",
-    "action_matrix": "{{ matrix.python-version }}"
+    "action_matrix": "matrix.python-version"
 }
